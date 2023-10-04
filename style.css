@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SoDo Sans",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+
+.header {
+  flex-direction: row;
+  border-bottom-style: solid;
+  display: flex;
+  font-size: 16px;
+}
+
+.starbucks-image {
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 500px;
+}
+.menu {
+  padding-left: 30px;
+}
+.menu:hover,
+.rewards:hover,
+.gift-cards:hover
+ {
+  color: rgb(0 112 74);
+}
+.rewards {
+  padding-left: 30px;
+}
+.gift-cards {
+  padding-left: 30px;
+}
+.right-section{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+.find-a-store {
+  padding: 20px;
+  font-family: "SoDo Sans",Helvetica Neue,Helvetica,Arial,sans-serif;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: white;
+  cursor: pointer;
+}
+.fin-a-store:hover {
+  color: rgb(0 112 74)
+}
+.sign-in {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 30px;
+  border-radius: 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  display:flex; 
+}
+.join-now {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin-top: 89px;
+  margin-left: 110px;
+  width: 300px;
+  padding: 5px;
+}
+.drinks {
+  font-size: 20px;
+  padding-top: 40px;
+}
+.drink-1 {
+  padding-top: 40px;
+}
+.menu-header {
+  margin-left: 500px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.drinks-header {
+  margin-left: 500px;
+  font-size: 20px;
+  padding-top: 50px;
+  border-bottom-style: solid;
+  position: relative;
+  border-color: rgb(208, 208, 208);
+
+}
+.drinks-header::after {
+  border-bottom-style: 500px;
+  width: 50px;
+}
+.coffee-grid {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 450px;
+  padding: 40px;
+
+}
+
+.coffee-container-1 {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffee-name {
+padding-left: 20px;
+}
+
+
+.coffee-picture {
+width: 100px;
+padding-bottom: 20px;
+
+}
+
+  font-family: Roboto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+
+}
